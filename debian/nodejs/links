@@ -1,0 +1,9 @@
+d3-dsv/bin/dsv2dsv  /usr/bin/csv2tsv
+d3-dsv/bin/json2dsv /usr/bin/json2csv
+d3-dsv/bin/json2dsv /usr/bin/json2tsv
+d3-dsv/bin/dsv2json /usr/bin/dsv2json
+d3-dsv/bin/dsv2dsv  /usr/bin/dsv2dsv
+d3-dsv/bin/dsv2json /usr/bin/csv2json
+d3-dsv/bin/dsv2json /usr/bin/tsv2json
+d3-dsv/bin/json2dsv /usr/bin/json2dsv
+d3-dsv/bin/dsv2dsv  /usr/bin/tsv2csv

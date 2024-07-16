@@ -1,3 +1,41 @@
+node-d3-dsv (1.2.0+~1.2.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript declarations
+  * New upstream version 1.2.0+~1.2.3
+
+ -- Yadd <yadd@debian.org>  Sat, 09 Sep 2023 17:24:18 +0400
+
+node-d3-dsv (1.1.1-9) unstable; urgency=medium
+
+  * Team upload
+  * Fix links (Closes: #1032048)
+  * Update standards version to 4.6.2, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Fri, 03 Mar 2023 11:39:08 +0400
+
+node-d3-dsv (1.1.1-8) unstable; urgency=medium
+
+  * Team upload
+  * Add fix for rollup 3 (Closes: #1022594)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 08:41:32 +0200
+
+node-d3-dsv (1.1.1-7) unstable; urgency=medium
+
+  * Team upload
+  * Add missing Breaks+Replaces: node-d3-dsv < 1.1.1-6~ (Closes: #1014252)
+
+ -- Yadd <yadd@debian.org>  Mon, 04 Jul 2022 06:16:45 +0200
+
+node-d3-dsv (1.1.1-6) unstable; urgency=medium
+
+  * Team upload
+  * Move tools to separate binary package
+  * Drop dependency on nodejs from node-d3-dsv (Closes: #1009951)
+
+ -- Paul Gevers <elbrus@debian.org>  Sun, 29 May 2022 16:11:57 +0200
+
 node-d3-dsv (1.1.1-5) unstable; urgency=medium
 
   * Team upload

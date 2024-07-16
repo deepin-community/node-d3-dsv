@@ -2,4 +2,7 @@ version=4
 opts=\
 dversionmangle=auto,\
 filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-d3-dsv-$1.tar.gz/ \
- https://github.com/d3/d3-dsv/tags .*/archive/(?:.*/)?v?([\d\.]+).tar.gz
+ https://github.com/d3/d3-dsv/tags .*/archive/(?:.*/)?v?([\d\.]+).tar.gz group
+
+opts="searchmode=plain,component=types-d3-dsv,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-d3-dsv-$1/" \
+ https://registry.npmjs.org/@types/d3-dsv https://registry.npmjs.org/@types/d3-dsv/-/d3-dsv-([\d\.]+)@ARCHIVE_EXT@ group
